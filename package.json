@@ -1,0 +1,29 @@
+{
+  "name": "type-checker",
+  "version": "1.0.0",
+  "description": "Mini type checker and linter for a subset of TypeScript - educational project",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "type-checker": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "check": "node dist/index.js",
+    "example:valid": "node dist/index.js examples/valid.ts",
+    "example:invalid": "node dist/index.js examples/invalid.ts",
+    "clean": "rm -rf dist"
+  },
+  "keywords": ["type-checker", "typescript", "linter", "ast", "parser", "educational"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^8.3.0",
+    "chalk": "^4.1.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4",
+    "@types/node": "^16.11.12"
+  }
+}
