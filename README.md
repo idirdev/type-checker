@@ -1,3 +1,5 @@
+> **Archived** — Kept for reference. Not part of the current portfolio. See [ts-toolkit](https://github.com/idirdev/ts-toolkit) instead.
+
 # type-checker
 
 [![TypeScript](https://img.shields.io/badge/TypeScript-4.5-blue.svg)](https://www.typescriptlang.org/)
