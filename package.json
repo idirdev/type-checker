@@ -13,7 +13,8 @@
     "check": "node dist/index.js",
     "example:valid": "node dist/index.js examples/valid.ts",
     "example:invalid": "node dist/index.js examples/invalid.ts",
-    "clean": "rm -rf dist"
+    "clean": "rm -rf dist",
+    "test": "vitest run"
   },
   "keywords": ["type-checker", "typescript", "linter", "ast", "parser", "educational"],
   "author": "",
@@ -24,6 +25,7 @@
   },
   "devDependencies": {
     "typescript": "^4.5.4",
-    "@types/node": "^16.11.12"
+    "@types/node": "^16.11.12",
+    "vitest": "^2.0.0"
   }
 }
