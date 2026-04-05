@@ -109,3 +109,22 @@ This is an educational project and does not cover the full TypeScript language:
 ## License
 
 MIT
+
+---
+
+## 🇫🇷 Documentation en français
+
+### Description
+**type-checker** est une bibliothèque TypeScript utilitaire pour la vérification et la validation des types à l'exécution. Elle fournit des gardes de type, des prédicats et des fonctions d'assertion pour s'assurer que les données correspondent aux types attendus, particulièrement utile pour valider des données JSON externes.
+
+### Installation
+```bash
+npm install @idirdev/type-checker
+```
+
+### Utilisation
+```typescript
+import { isString, assertNumber } from "@idirdev/type-checker";
+if (isString(value)) { /* value est typé string */ }
+assertNumber(value);   // Lève une erreur si value n'est pas un nombre
+```
